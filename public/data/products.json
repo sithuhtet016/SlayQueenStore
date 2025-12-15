@@ -355,4 +355,227 @@
     "reviews": 0,
     "tags": ["perfume", "balm", "fragrance", "terra pafe"]
   }
+  ,
+  {
+    "id": 10,
+    "name": "SeaGloca New Ultra-thin Creative Nice Minimalist Zipper Card Holder Wallet for Women",
+    "category": "wallets",
+    "price": 35,
+    "currency": "AED",
+    "description": "Ultra-thin minimalist zipper card holder wallet available in light-tone colors.",
+    "images": [
+      "/assets/images/SQWL-002-01.jpeg",
+      "/assets/images/SQWL-002-02.jpeg",
+      "/assets/images/SQWL-002-03.jpeg",
+      "/assets/images/SQWL-002-04.jpeg",
+      "/assets/images/SQWL-002-05.webp",
+      "/assets/images/SQWL-002-06.webp",
+      "/assets/images/SQWL-002-07.webp",
+      "/assets/images/SQWL-002-08.webp",
+      "/assets/images/SQWL-002-09.webp",
+      "/assets/images/SQWL-002-10.webp"
+    ],
+    "variants": [
+      {
+        "id": 1001,
+        "name": "Purple",
+        "image": "/assets/images/SQWL-002-01.jpeg",
+        "stock": 8,
+        "color": "#e6d4ff"
+      },
+      {
+        "id": 1002,
+        "name": "Pink",
+        "image": "/assets/images/SQWL-002-02.jpeg",
+        "stock": 8,
+        "color": "#ffd1e6"
+      },
+      {
+        "id": 1003,
+        "name": "Red",
+        "image": "/assets/images/SQWL-002-03.jpeg",
+        "stock": 8,
+        "color": "#ffc0c0"
+      },
+      {
+        "id": 1004,
+        "name": "Apricot",
+        "image": "/assets/images/SQWL-002-04.jpeg",
+        "stock": 8,
+        "color": "#ffe5c4"
+      },
+      {
+        "id": 1005,
+        "name": "Silver",
+        "image": "/assets/images/SQWL-002-05.webp",
+        "stock": 8,
+        "color": "#dfe6e9"
+      },
+      {
+        "id": 1006,
+        "name": "Black",
+        "image": "/assets/images/SQWL-002-06.webp",
+        "stock": 8,
+        "color": "#bfbfbf"
+      },
+      {
+        "id": 1007,
+        "name": "Brown",
+        "image": "/assets/images/SQWL-002-07.webp",
+        "stock": 8,
+        "color": "#d7bfa6"
+      },
+      {
+        "id": 1008,
+        "name": "Dark Blue",
+        "image": "/assets/images/SQWL-002-08.webp",
+        "stock": 8,
+        "color": "#7f9cc9"
+      },
+      {
+        "id": 1009,
+        "name": "Blue",
+        "image": "/assets/images/SQWL-002-09.webp",
+        "stock": 8,
+        "color": "#bfe0ff"
+      },
+      {
+        "id": 1010,
+        "name": "Green",
+        "image": "/assets/images/SQWL-002-10.webp",
+        "stock": 8,
+        "color": "#c7f4d4"
+      }
+    ],
+    "badge": "newArrival",
+    "sku": "SQWL-002",
+    "stock": 80,
+    "rating": 4.6,
+    "reviews": 0,
+    "tags": ["wallet", "card holder", "zipper", "seaGloca"]
+  }
+  ,
+  {
+    "id": 11,
+    "name": "SeaGloca Celeste Floral Print Wallet",
+    "category": "wallets",
+    "price": 35,
+    "currency": "AED",
+    "description": "Celeste floral print ultra-thin wallet available in a soft, light-color palette.",
+    "images": [
+      "/assets/images/SQWL-003-01.jpg",
+      "/assets/images/SQWL-003-02.jpg",
+      "/assets/images/SQWL-003-03.jpg",
+      "/assets/images/SQWL-003-04.jpg",
+      "/assets/images/SQWL-003-05.jpg",
+      "/assets/images/SQWL-003-06.jpg",
+      "/assets/images/SQWL-003-07.jpg",
+      "/assets/images/SQWL-003-08.jpg",
+      "/assets/images/SQWL-003-09.jpg",
+      "/assets/images/SQWL-003-10.jpg",
+      "/assets/images/SQWL-003-11.jpg",
+      "/assets/images/SQWL-003-12.jpg",
+      "/assets/images/SQWL-003-13.jpg"
+
+
+    ],
+    "variants": [
+      {
+        "id": 1101,
+        "name": "Purple",
+        "image": "/assets/images/SQWL-003-01.jpg",
+        "stock": 8,
+        "color": "#e6d4ff"
+      },
+      {
+        "id": 1102,
+        "name": "Pink",
+        "image": "/assets/images/SQWL-003-02.jpg",
+        "stock": 8,
+        "color": "#ffd1e6"
+      },
+      {
+        "id": 1103,
+        "name": "Green",
+        "image": "/assets/images/SQWL-003-03.jpg",
+        "stock": 8,
+        "color": "#c7f4d4"
+      },
+      {
+        "id": 1104,
+        "name": "Khaki",
+        "image": "/assets/images/SQWL-003-04.jpg",
+        "stock": 8,
+        "color": "#f0e6b6"
+      },
+      {
+        "id": 1105,
+        "name": "Black",
+        "image": "/assets/images/SQWL-003-05.jpg",
+        "stock": 8,
+        "color": "#bfbfbf"
+      }
+    ],
+    "badge": "newArrival",
+    "sku": "SQWL-003",
+    "stock": 40,
+    "rating": 4.6,
+    "reviews": 0,
+    "tags": ["wallet", "floral", "celeste", "seaGola"]
+  }
+  ,
+  {
+    "id": 12,
+    "name": "Montana West RFID blocking credit card holder",
+    "category": "wallets",
+    "price": 40,
+    "currency": "AED",
+    "description": "RFID-blocking credit card holder — slim, secure, and lightweight.",
+    "images": [
+      "/assets/images/SQWL-004-01.webp",
+      "/assets/images/SQWL-004-02.webp",
+      "/assets/images/SQWL-004-03.webp",
+      "/assets/images/SQWL-004-04.webp",
+      "/assets/images/SQWL-004-05.webp",
+      "/assets/images/SQWL-004-06.webp",
+      "/assets/images/SQWL-004-07.webp",
+      "/assets/images/SQWL-004-08.webp"
+    ],
+    "variants": [
+      {
+        "id": 1201,
+        "name": "Pink",
+        "image": "/assets/images/SQWL-004-01.webp",
+        "stock": 8,
+        "color": "#ffd1e6"
+      },
+      {
+        "id": 1202,
+        "name": "Brown",
+        "image": "/assets/images/SQWL-004-02.webp",
+        "stock": 8,
+        "color": "#d7bfa6"
+      },
+      {
+        "id": 1203,
+        "name": "Blue",
+        "image": "/assets/images/SQWL-004-03.webp",
+        "stock": 8,
+        "color": "#bfe0ff"
+      },
+      {
+        "id": 1204,
+        "name": "Beige",
+        "image": "/assets/images/SQWL-004-04.webp",
+        "stock": 8,
+        "color": "#f5e6d3"
+      }
+    ],
+    "badge": "newArrival",
+    "sku": "SQWL-004",
+    "stock": 32,
+    "rating": 4.6,
+    "reviews": 0,
+    "tags": ["wallet", "rfid", "montana west"]
+  }
 ]

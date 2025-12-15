@@ -292,7 +292,7 @@ export function ProductCarousel({
                   <p className="text-[12px] font-semibold text-[#3D2645] uppercase mb-2">
                     Choose Color
                   </p>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 max-w-[322px] overflow-x-auto scrollbar-hide">
                     {selectedProduct.variants.map((variant) => {
                       const isActive = variant.id === selectedVariantId;
                       return (
