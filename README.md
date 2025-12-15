@@ -1,87 +1,64 @@
-# Welcome to React Router!
+# Slay Queen Store
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Full-stack React Router app for Slay Queen: blind boxes, K-beauty, wallets, and bags. Includes cart, checkout with FormSubmit, category navigation with hash syncing, and product search.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- SSR-ready React Router v7 with TypeScript
+- Cart with variants and currency formatting
+- Checkout with payment-proof upload via FormSubmit
+- Category hash highlighting and menu hash tracking
+- Product search (tag-based) with image fallbacks
+
+## Tech Stack
+
+- React 19, React Router 7 (full-stack)
+- TypeScript
+- Tailwind CSS (via PostCSS config baked into the template)
+- Vite tooling for dev/build
 
 ## Getting Started
 
-### Installation
-
-Install the dependencies:
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
+Run locally with HMR:
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Type generation + type check:
 
-## Building for Production
+```bash
+npm run typecheck
+```
 
-Create a production build:
+## Build
 
 ```bash
 npm run build
 ```
 
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
+Output lives in `build/client` (static) and `build/server` (server entry). Start locally after build:
 
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+npm start
 ```
 
-The containerized application can be deployed to any platform that supports Docker, including:
+## Deploy (Render example)
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+- Create a Render Web Service from the GitHub repo.
+- Build command: `npm run build`
+- Start command: `npm start`
+- Runtime: Node 20+
+- Add your custom domain in Render → Custom Domains; point DNS (A/ALIAS for apex, CNAME for www) per Render’s instructions and wait for SSL.
 
-### DIY Deployment
+## Notes
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+- Product catalog: `public/data/products.json`
+- Cart state persists in `localStorage` via `cart-context`.
+- Checkout posts to FormSubmit; ensure the primary recipient address is correct before going live.

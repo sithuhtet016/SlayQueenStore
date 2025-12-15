@@ -1,0 +1,269 @@
+[
+  {
+    "id": 1,
+    "name": "Yaya Fun Fruit Plush Pendant Blind Box",
+    "category": "blindBoxes",
+    "price": 35,
+    "currency": "AED",
+    "description": "Surprise box containing 1 random Yaya Fun Fruit Plush Pendant. Collectible and adorable keychain plushies!",
+    "images": [
+      "/assets/images/SQBB-001-01.jpg",
+      "/assets/images/SQBB-001-02.webp",
+      "/assets/images/SQBB-001-03.avif",
+      "/assets/images/SQBB-001-04.avif",
+      "/assets/images/SQBB-001-05.avif",
+      "/assets/images/SQBB-001-06.avif",
+      "/assets/images/SQBB-001-07.webp"
+    ],
+    "badge": "bestSeller",
+    "sku": "SQBB-001",
+    "stock": 6,
+    "rating": 4.7,
+    "reviews": 87,
+    "tags": ["yaya fun fruit", "blind box", "plush", "keychain"]
+  },
+  {
+    "id": 2,
+    "name": "Yaya Little Mischievous Bag Plush Blind Box",
+    "category": "blindBoxes",
+    "price": 35,
+    "currency": "AED",
+    "description": "Surprise box containing 1 random Yaya Little Mischievous Bag Plush. Collectible and adorable keychain plushies!",
+    "images": [
+      "/assets/images/SQBB-002-01.webp",
+      "/assets/images/SQBB-002-02.webp",
+      "/assets/images/SQBB-002-03.webp",
+      "/assets/images/SQBB-002-04.webp"
+    ],
+    "badge": "newArrival",
+    "sku": "SQBB-002",
+    "stock": 4,
+    "rating": 4.8,
+    "reviews": 87,
+    "tags": ["yaya little mischievous bag", "blind box", "plush", "keychain"]
+  },
+  {
+    "id": 3,
+    "name": "Watsons Exfoliating Body Gloves",
+    "category": "kBeauty",
+    "price": 30,
+    "currency": "AED",
+    "description": "Exfoliating body gloves for smooth and soft skin. Removes dead skin cells and impurities.",
+    "images": [
+      "/assets/images/SQKB-001-01.jpeg",
+      "/assets/images/SQKB-001-02.jpeg",
+      "/assets/images/SQKB-001-03.jpeg",
+      "/assets/images/SQKB-001-04.webp"
+    ],
+    "badge": "newArrival",
+    "sku": "SQKB-001",
+    "stock": 20,
+    "rating": 4.5,
+    "reviews": 42,
+    "tags": ["exfoliating", "body gloves", "skincare", "bath"]
+  },
+  {
+    "id": 4,
+    "name": "Pelican Loving Butt and Hip Care Soap",
+    "category": "kBeauty",
+    "price": 35,
+    "currency": "AED",
+    "description": "Pelican Soap for hip care. Exfoliates keratin and dark spots for smooth, peach-like skin.",
+    "images": [
+      "/assets/images/SQKB-002-01.jpg",
+      "/assets/images/SQKB-002-02.jpg",
+      "/assets/images/SQKB-002-03.jpg",
+      "/assets/images/SQKB-002-04.jpg",
+      "/assets/images/SQKB-002-05.jpg"
+    ],
+    "badge": "newArrival",
+    "sku": "SQKB-002",
+    "stock": 15,
+    "rating": 4.6,
+    "reviews": 28,
+    "tags": ["soap", "hip care", "exfoliating", "kbeauty"]
+  },
+  {
+    "id": 5,
+    "name": "Oukeya Just Kiss Lip Gloss Tint",
+    "category": "kBeauty",
+    "price": 35,
+    "currency": "AED",
+    "description": "Long-lasting lip gloss tint for a natural, glossy finish. Hydrating formula that stains lips with beautiful color.",
+    "images": [
+      "/assets/images/SQKB-003-01.jpeg",
+      "/assets/images/SQKB-003-02.webp",
+      "/assets/images/SQKB-003-03.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 501,
+        "name": "Toffee Tan",
+        "image": "/assets/images/SQKB-003-04.jpeg",
+        "stock": 5,
+        "color": "#c68642"
+      },
+      {
+        "id": 502,
+        "name": "Rusty Rose",
+        "image": "/assets/images/SQKB-003-05.jpg",
+        "stock": 5,
+        "color": "#b44b4b"
+      },
+      {
+        "id": 503,
+        "name": "Hot Chili",
+        "image": "/assets/images/SQKB-003-06.jpeg",
+        "stock": 5,
+        "color": "#c0392b"
+      },
+      {
+        "id": 504,
+        "name": "Bubble Pink",
+        "image": "/assets/images/SQKB-003-07.webp",
+        "stock": 5,
+        "color": "#d78ac8"
+      },
+      {
+        "id": 505,
+        "name": "Power Pink",
+        "image": "/assets/images/SQKB-003-08.webp",
+        "stock": 5,
+        "color": "#d45a8a"
+      },
+      {
+        "id": 506,
+        "name": "Red Pop",
+        "image": "/assets/images/SQKB-003-09.jpeg",
+        "stock": 5,
+        "color": "#d1001f"
+      },
+      {
+        "id": 507,
+        "name": "Peachy Shein",
+        "image": "/assets/images/SQKB-003-10.jpeg",
+        "stock": 5,
+        "color": "#f2a16d"
+      },
+      {
+        "id": 508,
+        "name": "Honey Glow",
+        "image": "/assets/images/SQKB-003-11.jpeg",
+        "stock": 5,
+        "color": "#f2c078"
+      }
+    ],
+    "badge": "newArrival",
+    "sku": "SQKB-003",
+    "stock": 40,
+    "rating": 4.7,
+    "reviews": 15,
+    "tags": ["lip gloss", "tint", "makeup", "kbeauty", "oukeya"]
+  },
+  {
+    "id": 6,
+    "name": "SeaGloca Valentine's Day heart-patterned card holder/coin purse",
+    "category": "wallets",
+    "price": 30,
+    "currency": "AED",
+    "description": "Heart-patterned card holder and coin purse set perfect for Valentine's Day gifts.",
+    "images": [
+      "/assets/images/SQWL-001-01.webp",
+      "/assets/images/SQWL-001-02.webp",
+      "/assets/images/SQWL-001-03.webp",
+      "/assets/images/SQWL-001-04.webp",
+      "/assets/images/SQWL-001-05.webp",
+      "/assets/images/SQWL-001-06.jpg",
+      "/assets/images/SQWL-001-07.webp",
+      "/assets/images/SQWL-001-08.webp",
+      "/assets/images/SQWL-001-09.webp"
+    ],
+    "variants": [
+      {
+        "id": 601,
+        "name": "Beige",
+        "image": "/assets/images/SQWL-001-06.jpg",
+        "stock": 8,
+        "color": "#f5e6d3"
+      },
+      {
+        "id": 602,
+        "name": "Pink",
+        "image": "/assets/images/SQWL-001-08.webp",
+        "stock": 8,
+        "color": "#f4b6c2"
+      }
+    ],
+    "badge": "bestSeller",
+    "sku": "SQWL-001",
+    "stock": 16,
+    "rating": 4.6,
+    "reviews": 12,
+    "tags": ["wallet", "card holder", "coin purse", "seaglOca", "valentines"]
+  },
+  {
+    "id": 7,
+    "name": "(COCOTAYA) Fashion commuter shoulder bag simple and versatile women's bag",
+    "category": "bags",
+    "price": 120,
+    "currency": "AED",
+    "description": "Simple, versatile commuter shoulder bag with multiple colorways for everyday wear.",
+    "images": [
+      "/assets/images/SQBG-001-01.webp",
+      "/assets/images/SQBG-001-02.webp",
+      "/assets/images/SQBG-001-03.webp",
+      "/assets/images/SQBG-001-04.webp",
+      "/assets/images/SQBG-001-05.webp"
+    ],
+    "variants": [
+      {
+        "id": 701,
+        "name": "Brown",
+        "image": "/assets/images/SQBG-001-06.webp",
+        "stock": 6,
+        "color": "#8b5a2b"
+      },
+      {
+        "id": 702,
+        "name": "Coffee",
+        "image": "/assets/images/SQBG-001-07.webp",
+        "stock": 6,
+        "color": "#5a3a1a"
+      },
+      {
+        "id": 703,
+        "name": "Frosted Brown",
+        "image": "/assets/images/SQBG-001-08.webp",
+        "stock": 6,
+        "color": "#a6846a"
+      },
+      {
+        "id": 704,
+        "name": "Frosted Green",
+        "image": "/assets/images/SQBG-001-09.webp",
+        "stock": 6,
+        "color": "#6b8f6d"
+      },
+      {
+        "id": 705,
+        "name": "Frosted Coffee",
+        "image": "/assets/images/SQBG-001-10.webp",
+        "stock": 6,
+        "color": "#7a563c"
+      },
+      {
+        "id": 706,
+        "name": "Black",
+        "image": "/assets/images/SQBG-001-11.webp",
+        "stock": 6,
+        "color": "#1f1f1f"
+      }
+    ],
+    "badge": "newArrival",
+    "sku": "SQBG-001",
+    "stock": 36,
+    "rating": 4.7,
+    "reviews": 22,
+    "tags": ["bag", "shoulder bag", "commuter", "cocotaya", "fashion"]
+  }
+]

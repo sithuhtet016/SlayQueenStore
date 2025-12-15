@@ -1,13 +1,29 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { Navbar } from "../components/Navbar";
+import { Hero } from "../components/Hero";
+import { Bestseller } from "../components/Bestseller";
+import { ShopCategory } from "~/components/ShopCategory";
+import { Footer } from "~/components/Footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Slay Queen | Slay Your Style" },
+    {
+      name: "description",
+      content:
+        "Shop the latest trends and slay every day with our exclusive collection.",
+    },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div className="min-w-[402px]">
+      <Navbar />
+      <Hero />
+      <Bestseller />
+      <ShopCategory />
+      <Footer />
+    </div>
+  );
 }

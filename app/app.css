@@ -1,15 +1,101 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans:
+    "Poppins", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-lato: "Lato", sans-serif;
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  background-color: #faf7f2;
+  font-family: var(--font-sans);
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Simple, performant micro-animations and transitions */
+:root {
+  --transition-fast: 150ms;
+  --transition-medium: 240ms;
+  --easing: cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+/* Buttons */
+.btn-transition {
+  transition:
+    transform var(--transition-fast) var(--easing),
+    box-shadow var(--transition-medium) var(--easing),
+    background-color var(--transition-medium) var(--easing);
+  will-change: transform;
+}
+.btn-transition:active {
+  transform: scale(0.98);
+}
+
+/* Menu drawer and backdrop transitions are driven by classes already,
+   add a subtle slide + fade helper for other elements */
+.slide-fade-enter {
+  transform: translateY(6px);
+  opacity: 0;
+}
+.slide-fade-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition:
+    transform var(--transition-medium) var(--easing),
+    opacity var(--transition-medium) var(--easing);
+}
+
+/* Product cards */
+.product-card {
+  transition:
+    transform var(--transition-medium) var(--easing),
+    box-shadow var(--transition-medium) var(--easing);
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(45, 30, 60, 0.08);
+}
+
+/* Modal image subtle pop */
+.modal-image {
+  transition:
+    transform var(--transition-medium) var(--easing),
+    opacity var(--transition-medium) var(--easing);
+}
+.modal-image-enter {
+  transform: scale(0.98);
+  opacity: 0.95;
+}
+.modal-image-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Tiny focus-visible ring for accessibility without layout shift */
+.focus-ring:focus-visible {
+  outline: 3px solid rgba(212, 175, 55, 0.25);
+  outline-offset: 2px;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-medium: 0ms;
+  }
+  .product-card,
+  .btn-transition,
+  .modal-image {
+    transition: none !important;
   }
 }
