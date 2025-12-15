@@ -118,6 +118,9 @@ export function ProductCarousel({
 
   const confirmAddToCart = () => {
     if (!selectedProduct) return;
+    const availableStock =
+      selectedVariant?.stock ?? selectedProduct.stock ?? 0;
+    if ((availableStock ?? 0) <= 0) return;
     addToCart(selectedProduct.id, selectedVariantId, quantity);
     closeModal();
     navigate("/cart");
@@ -126,6 +129,9 @@ export function ProductCarousel({
   const selectedVariant = selectedProduct?.variants?.find(
     (variant) => variant.id === selectedVariantId
   );
+  const availableStock =
+    selectedVariant?.stock ?? selectedProduct?.stock ?? 0;
+  const isOutOfStock = (availableStock ?? 0) <= 0;
   const modalImages = getModalImages(selectedProduct);
   const displayImage = activeImage || modalImages[0];
 
@@ -278,8 +284,12 @@ export function ProductCarousel({
               )}
             </div>
 
-            <p className="text-[#6B9E5E] text-[14px] font-semibold mb-2">
-              In Stock
+            <p
+              className={`text-[14px] font-semibold mb-2 ${
+                isOutOfStock ? "text-red-600" : "text-[#6B9E5E]"
+              }`}
+            >
+              {isOutOfStock ? "Out of stock" : "In Stock"}
             </p>
 
             <p className="text-[#D4AF37] text-[20px] font-bold mb-4">
@@ -348,11 +358,16 @@ export function ProductCarousel({
             </div>
 
             <button
-              className="w-full bg-[#D4AF37] text-[#3D2645] text-[14px] font-bold py-3 rounded-lg hover:bg-[#b8962e] transition-colors btn-transition"
+              className={`w-full text-[#3D2645] text-[14px] font-bold py-3 rounded-lg transition-colors btn-transition ${
+                isOutOfStock
+                  ? "bg-gray-300 cursor-not-allowed opacity-70"
+                  : "bg-[#D4AF37] hover:bg-[#b8962e]"
+              }`}
               onClick={confirmAddToCart}
               type="button"
+              disabled={isOutOfStock}
             >
-              ADD TO CART
+              {isOutOfStock ? "OUT OF STOCK" : "ADD TO CART"}
             </button>
           </div>
         </div>
