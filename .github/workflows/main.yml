@@ -102,10 +102,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Use Node.js
+        uses: actions/setup-node@v4
         with:
-          path: build/client
+          node-version: "20"
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build --if-present
+
+      - name: Deploy to GitHub Pages (gh-pages branch)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/client
