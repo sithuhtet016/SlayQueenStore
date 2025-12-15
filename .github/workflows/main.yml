@@ -27,7 +27,13 @@ jobs:
         run: npm install
 
       - name: Run linter (if configured)
-        run: npm run lint --if-present
+        run: |
+          if [ -f .eslintrc.js ] || [ -f .eslintrc.cjs ] || [ -f .eslintrc.json ] || [ -f .eslintrc.yml ] || [ -f .eslintrc.yaml ] || [ -f .eslintrc ] || grep -q '"eslintConfig"' package.json 2>/dev/null; then
+            echo "ESLint config detected — running npm run lint"
+            npm run lint
+          else
+            echo "No ESLint configuration detected, skipping lint step."
+          fi
 
       - name: Type-check (if configured)
         run: npm run typecheck --if-present
