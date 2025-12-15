@@ -87,7 +87,7 @@
     "id": 5,
     "name": "Oukeya Just Kiss Lip Gloss Tint",
     "category": "kBeauty",
-    "price": 35,
+    "price": 25,
     "currency": "AED",
     "description": "Long-lasting lip gloss tint for a natural, glossy finish. Hydrating formula that stains lips with beautiful color.",
     "images": [
@@ -164,7 +164,7 @@
     "id": 6,
     "name": "SeaGloca Valentine's Day heart-patterned card holder/coin purse",
     "category": "wallets",
-    "price": 30,
+    "price": 35,
     "currency": "AED",
     "description": "Heart-patterned card holder and coin purse set perfect for Valentine's Day gifts.",
     "images": [
@@ -205,7 +205,7 @@
     "id": 7,
     "name": "(COCOTAYA) Fashion commuter shoulder bag simple and versatile women's bag",
     "category": "bags",
-    "price": 120,
+    "price": 90,
     "currency": "AED",
     "description": "Simple, versatile commuter shoulder bag with multiple colorways for everyday wear.",
     "images": [
@@ -265,5 +265,94 @@
     "rating": 4.7,
     "reviews": 22,
     "tags": ["bag", "shoulder bag", "commuter", "cocotaya", "fashion"]
+  }
+  ,
+  {
+    "id": 8,
+    "name": "Vaseline Healthy Bright Gluta-Hya Serum Burst Lotion",
+    "category": "kBeauty",
+    "price": 35,
+    "currency": "AED",
+    "description": "Lightweight serum-burst lotion with Gluta and Hyaluronic Acid for brighter, hydrated skin.",
+    "images": [
+      "/assets/images/SQKB-004-01.webp",
+      "/assets/images/SQKB-004-02.webp",
+      "/assets/images/SQKB-004-03.webp",
+      "/assets/images/SQKB-004-04.webp"
+    ],
+    "variants": [
+      {
+        "id": 801,
+        "name": "Pro-Age Restore",
+        "image": "/assets/images/SQKB-004-01.webp",
+        "stock": 20,
+        "color": "#ffc0cb"
+      },
+      {
+        "id": 802,
+        "name": "Smoothing Perfector",
+        "image": "/assets/images/SQKB-004-03.webp",
+        "stock": 20,
+        "color": "#008080"
+      }
+    ],
+    "badge": "bestSeller",
+    "sku": "SQKB-004",
+    "stock": 40,
+    "rating": 4.5,
+    "reviews": 0,
+    "tags": ["vaseline", "lotion", "serum", "skincare"]
+  }
+  ,
+  {
+    "id": 9,
+    "name": "Terra Pafe Perfume Balms",
+    "category": "kBeauty",
+    "price": 30,
+    "currency": "AED",
+    "description": "Compact perfume balms with long-lasting fragrances for on-the-go touch-ups.",
+    "images": [
+      "/assets/images/SQKB-005-01.jpeg",
+      "/assets/images/SQKB-005-02.jpeg",
+      "/assets/images/SQKB-005-03.jpeg",
+      "/assets/images/SQKB-005-04.jpeg",
+      "/assets/images/SQKB-005-05.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 901,
+        "name": "Mon Paris",
+        "image": "/assets/images/SQKB-005-02.jpeg",
+        "stock": 10,
+        "color": "#f4c2c2"
+      },
+      {
+        "id": 902,
+        "name": "Coco Blooming",
+        "image": "/assets/images/SQKB-005-03.jpeg",
+        "stock": 10,
+        "color": "#f7e7b7"
+      },
+      {
+        "id": 903,
+        "name": "Sirens Whisper",
+        "image": "/assets/images/SQKB-005-04.jpeg",
+        "stock": 10,
+        "color": "#c9b1ff"
+      },
+      {
+        "id": 904,
+        "name": "Miss Rose",
+        "image": "/assets/images/SQKB-005-05.jpeg",
+        "stock": 10,
+        "color": "#ffb6c1"
+      }
+    ],
+    "badge": "newArrival",
+    "sku": "SQKB-005",
+    "stock": 40,
+    "rating": 4.6,
+    "reviews": 0,
+    "tags": ["perfume", "balm", "fragrance", "terra pafe"]
   }
 ]
