@@ -656,7 +656,7 @@ export default function Checkout() {
             Account Holder Name
           </h5>
           <p className="font-lato font-normal text-[12px] text-[#2B2520] mb-6">
-            Slay Queen LLC
+            MIN KHANT MAUNG
           </p>
         </div>
         <div>
@@ -672,7 +672,7 @@ export default function Checkout() {
             Account Number
           </h5>
           <p className="font-lato font-normal text-[12px] text-[#2B2520] mb-6">
-            1234 5678 9012 3456
+            019101474289
           </p>
         </div>
         <div>
@@ -680,7 +680,7 @@ export default function Checkout() {
             IBAN Number
           </h5>
           <p className="font-lato font-normal text-[12px] text-[#2B2520] mb-6">
-            AE12 3456 7890 1234 5678 901
+            AE660330000019101474289
           </p>
         </div>
         <div>
