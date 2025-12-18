@@ -220,7 +220,7 @@
         "id": 701,
         "name": "Brown",
         "image": "/assets/images/SQBG-001-06.webp",
-        "stock": 6,
+        "stock": 0,
         "color": "#8b5a2b"
       },
       {
@@ -278,7 +278,10 @@
       "/assets/images/SQKB-004-01.webp",
       "/assets/images/SQKB-004-02.webp",
       "/assets/images/SQKB-004-03.webp",
-      "/assets/images/SQKB-004-04.webp"
+      "/assets/images/SQKB-004-04.webp",
+      "/assets/images/SQKB-004-05.avif",
+      "/assets/images/SQKB-004-06.avif"
+
     ],
     "variants": [
       {
@@ -294,6 +297,14 @@
         "image": "/assets/images/SQKB-004-03.webp",
         "stock": 20,
         "color": "#008080"
+      }
+      ,
+      {
+        "id": 803,
+        "name": "Dewy Radiance",
+        "image": "/assets/images/SQKB-004-05.avif",
+        "stock": 15,
+        "color": "#f6d1b8"
       }
     ],
     "badge": "bestSeller",
@@ -524,6 +535,111 @@
     "tags": ["wallet", "floral", "celeste", "seaGola"]
   }
   ,
+  {
+    "id": 14,
+    "name": "Skintific Peptide Nourishing Lip Serum",
+    "category": "kBeauty",
+    "price": 40,
+    "currency": "AED",
+    "description": "Lightweight peptide lip serum to nourish, plump, and protect lips with long-lasting hydration.",
+    "images": [
+      "/assets/images/SQKB-007-01.jpeg",
+      "/assets/images/SQKB-007-02.jpeg",
+      "/assets/images/SQKB-007-03.jpeg",
+      "/assets/images/SQKB-007-04.jpeg",
+      "/assets/images/SQKB-007-05.jpeg"
+    ],
+    "variants": [
+      {
+        "id": 1401,
+        "name": "clear",
+        "image": "/assets/images/SQKB-007-02.jpeg",
+        "stock": 2,
+        "color": "#ffe9e9"
+      },
+      {
+        "id": 1402,
+        "name": "Coral Rose",
+        "image": "/assets/images/SQKB-007-03.jpeg",
+        "stock": 2,
+        "color": "#f7c4b7"
+      },
+      {
+        "id": 1403,
+        "name": "Cherry Red",
+        "image": "/assets/images/SQKB-007-04.jpeg",
+        "stock": 2,
+        "color": "#ff6b6b"
+      },
+      {
+        "id": 1404,
+        "name": "Baby Pink",
+        "image": "/assets/images/SQKB-007-05.jpeg",
+        "stock": 2,
+        "color": "#ffd9e6"
+      }
+    ],
+    "badge": "newArrival",
+    "sku": "SQKB-007",
+    "stock": 8,
+    "rating": 4.6,
+    "reviews": 0,
+    "tags": ["lip serum", "peptide", "skintific", "kbeauty"]
+  },
+  {
+    "id": 13,
+    "name": "Vaseline Healthy Bright Body Lotion 320ml",
+    "category": "kBeauty",
+    "price": 35,
+    "currency": "AED",
+    "description": "Lightweight body lotion with cranberry superfood extract and Freshlock technology — delivers long-lasting hydration, helps brighten skin tone, and locks in freshness throughout the day.",
+    "images": [
+      "/assets/images/SQKB-006-01.webp",
+      "/assets/images/SQKB-006-02.webp",
+      "/assets/images/SQKB-006-03.avif",
+      "/assets/images/SQKB-006-04.avif",
+      "/assets/images/SQKB-006-05.avif",
+      "/assets/images/SQKB-006-06.avif",
+      "/assets/images/SQKB-006-07.webp",
+      "/assets/images/SQKB-006-08.webp"
+    ],
+    "variants": [
+      {
+        "id": 1301,
+        "name": "Cranberry Burst",
+        "image": "/assets/images/SQKB-006-01.webp",
+        "stock": 10,
+        "color": "#f4a6b2"
+      },
+      {
+        "id": 1302,
+        "name": "SPF 30PA++",
+        "image": "/assets/images/SQKB-006-03.avif",
+        "stock": 15,
+        "color": "#fff2d9"
+      },
+      {
+        "id": 1303,
+        "name": "Fresh & Bright Cooling",
+        "image": "/assets/images/SQKB-006-05.avif",
+        "stock": 12,
+        "color": "#dff7fb"
+      },
+      {
+        "id": 1304,
+        "name": "UV Extra Brightening",
+        "image": "/assets/images/SQKB-006-07.webp",
+        "stock": 8,
+        "color": "#fff7e6"
+      }
+],
+    "badge": "bestSeller",
+    "sku": "SQKB-006",
+    "stock": 40,
+    "rating": 4.5,
+    "reviews": 0,
+    "tags": ["vaseline", "body lotion", "cranberry", "skincare"]
+  },
   {
     "id": 12,
     "name": "Montana West RFID blocking credit card holder",

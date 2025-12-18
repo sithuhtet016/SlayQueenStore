@@ -170,8 +170,7 @@ export default function Checkout() {
                 href="https://wa.me/971559367466"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#6B9E5E] font-bold text-[12px] text-[#3D2645] px-5 py-3 rounded-lg hover:bg-[#5a854f] transition-colors flex items-center gap-2"
-              >
+                className="bg-[#6B9E5E] font-bold text-[12px] text-[#3D2645] px-5 py-3 rounded-lg hover:bg-[#5a854f] transition-colors flex items-center gap-2">
                 Chat with us on WhatsApp
                 <span>
                   <img className="w-[18px]" src={whatsappIcon} alt="WhatsApp" />
@@ -183,8 +182,7 @@ export default function Checkout() {
                   window.location.href = "/categories";
                 }}
                 className="absolute top-5 right-5 z-50 text-[#3D2645] hover:text-gray-600 transition-colors"
-                aria-label="Close"
-              >
+                aria-label="Close">
                 <img src={closeIcon} alt="Close" className="w-6 h-6" />
               </button>
             </div>
@@ -208,8 +206,7 @@ export default function Checkout() {
         method="POST"
         className={`mx-auto max-w-[402px] md:max-w-3xl group ${
           showErrors ? "show-errors" : ""
-        }`}
-      >
+        }`}>
         {/* FormSubmit.co Configuration */}
         <input
           type="hidden"
@@ -229,8 +226,7 @@ export default function Checkout() {
         <div>
           <label
             htmlFor="email"
-            className="block font-lato text-[16px] text-[#3D2645] font-semibold mb-3"
-          >
+            className="block font-lato text-[16px] text-[#3D2645] font-semibold mb-3">
             Email
           </label>
           <input
@@ -254,8 +250,7 @@ export default function Checkout() {
         <div className="mb-6">
           <label
             className="block font-lato text-[14px] text-[#3D2645] font-semibold mb-3"
-            htmlFor="name"
-          >
+            htmlFor="name">
             Full Name
           </label>
           <input
@@ -284,8 +279,7 @@ export default function Checkout() {
         <div className="mb-6">
           <label
             className="block font-lato text-[14px] text-[#3D2645] font-semibold mb-3"
-            htmlFor="streetAddress"
-          >
+            htmlFor="streetAddress">
             Street
           </label>
           <input
@@ -303,8 +297,7 @@ export default function Checkout() {
         <div className="mb-6">
           <label
             className="block font-lato text-[14px] text-[#3D2645] font-semibold mb-3"
-            htmlFor="building"
-          >
+            htmlFor="building">
             Building name/no
           </label>
           <input
@@ -322,8 +315,7 @@ export default function Checkout() {
         <div className="mb-6">
           <label
             className="block font-lato text-[14px] text-[#3D2645] font-semibold mb-3"
-            htmlFor="city"
-          >
+            htmlFor="city">
             City
           </label>
           <input
@@ -341,8 +333,7 @@ export default function Checkout() {
         <div className="mb-6">
           <label
             className="block font-lato text-[14px] text-[#3D2645] font-semibold mb-3"
-            htmlFor="country"
-          >
+            htmlFor="country">
             Country
           </label>
           <div className="relative">
@@ -351,8 +342,7 @@ export default function Checkout() {
               name="country"
               required
               className="peer appearance-none w-full border bg-white border-white rounded px-3 py-2 pr-8 focus:border-[#D4AF37] focus:border-2 outline-none transition font-lato text-[14px] text-[#3D2645] group-[.show-errors]:invalid:border-red-500 group-[.show-errors]:invalid:border-2"
-              defaultValue=""
-            >
+              defaultValue="">
               <option value="" disabled className="text-gray-400">
                 Select Country
               </option>
@@ -614,8 +604,7 @@ export default function Checkout() {
               <svg
                 className="fill-current h-4 w-4"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
+                viewBox="0 0 20 20">
                 <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
               </svg>
             </div>
@@ -627,8 +616,7 @@ export default function Checkout() {
         <div>
           <label
             className="block font-lato text-[14px] text-[#3D2645] font-semibold mb-3"
-            htmlFor="phoneNumber"
-          >
+            htmlFor="phoneNumber">
             Phone Number
           </label>
           <input
@@ -656,7 +644,7 @@ export default function Checkout() {
             Account Holder Name
           </h5>
           <p className="font-lato font-normal text-[12px] text-[#2B2520] mb-6">
-            MIN KHANT MAUNG
+            Slay Queen Store
           </p>
         </div>
         <div>
@@ -672,7 +660,7 @@ export default function Checkout() {
             Account Number
           </h5>
           <p className="font-lato font-normal text-[12px] text-[#2B2520] mb-6">
-            019101474289
+            0858101474289
           </p>
         </div>
         <div>
@@ -680,7 +668,7 @@ export default function Checkout() {
             IBAN Number
           </h5>
           <p className="font-lato font-normal text-[12px] text-[#2B2520] mb-6">
-            AE660330000019101474289
+            AE78403030000858101474289
           </p>
         </div>
         <div>
@@ -707,8 +695,7 @@ export default function Checkout() {
           />
           <label
             htmlFor="paymentProof"
-            className="flex items-center justify-center w-full h-[94px] border border-dashed border-[#3D2645] rounded-md cursor-pointer bg-white hover:bg-gray-50 transition group-[.show-errors]:peer-invalid:border-red-500"
-          >
+            className="flex items-center justify-center w-full h-[94px] border border-dashed border-[#3D2645] rounded-md cursor-pointer bg-white hover:bg-gray-50 transition group-[.show-errors]:peer-invalid:border-red-500">
             {fileName ? (
               <span className="text-sm font-semibold text-[#2B2520]">
                 Change File
@@ -751,36 +738,31 @@ export default function Checkout() {
           </label>
           <label
             className="font-lato font-bold text-[12px] text-[#2B2520] cursor-pointer"
-            htmlFor="completedTransfer"
-          >
+            htmlFor="completedTransfer">
             I have transferred {formatCurrency(total)} from my bank account.
           </label>
         </div>
         <button
           type="submit"
           disabled={!isChecked || isSubmitting}
-          className="mt-16 uppercase w-full bg-[#D4AF37] font-lato font-bold text-[14px] text-[#3D2645] px-5 py-3 rounded-lg hover:bg-[#b8962e] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex justify-center items-center"
-        >
+          className="mt-16 uppercase w-full bg-[#D4AF37] font-lato font-bold text-[14px] text-[#3D2645] px-5 py-3 rounded-lg hover:bg-[#b8962e] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex justify-center items-center">
           {isSubmitting ? (
             <svg
               className="animate-spin h-5 w-5 text-[#3D2645]"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              viewBox="0 0 24 24"
-            >
+              viewBox="0 0 24 24">
               <circle
                 className="opacity-25"
                 cx="12"
                 cy="12"
                 r="10"
                 stroke="currentColor"
-                strokeWidth="4"
-              ></circle>
+                strokeWidth="4"></circle>
               <path
                 className="opacity-75"
                 fill="currentColor"
-                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-              ></path>
+                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
             </svg>
           ) : (
             "Confirm Order"
