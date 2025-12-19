@@ -694,4 +694,22 @@
     "reviews": 0,
     "tags": ["wallet", "rfid", "montana west"]
   }
+  ,
+  {
+    "id": 15,
+    "name": "Mistine White Spa Summer UV3 Whitening Lotion Pomegranate",
+    "category": "kBeauty",
+    "price": 30,
+    "currency": "AED",
+    "description": "Lightweight summer lotion with pomegranate extract and UV3 protection — hydrates, helps brighten skin tone, and provides lightweight UV defense for daily use.",
+    "images": [
+      "/assets/images/SQKB-008-01.jpg"
+    ],
+    "badge": "newArrival",
+    "sku": "SQKB-008",
+    "stock": 30,
+    "rating": 4.4,
+    "reviews": 0,
+    "tags": ["mistine", "whitening", "uv", "pomegranate", "body lotion"]
+  }
 ]
